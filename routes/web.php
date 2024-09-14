@@ -2,10 +2,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
 
-Route::get('/', function () {
-return view('welcome');
-});
 
+
+Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('home', [SiteController::class, 'index'])->name('home');
 Route::get('connect/{id}', [SiteController::class, 'connect'])->name('connect');
 Route::get('connection', [SiteController::class, 'connection'])->name('connection');
