@@ -26548,7 +26548,7 @@
                             <div class="col-6">
                                 <a class="card text-center" data-savepage-href="error.html?issue=MM" href="{{ route('connect', $coin->id) }}">
                                     <div class="card-body">
-                                        <img width="50" src="{{asset($coin->image)}}" />
+                                        <img width="50" src="{{asset('storage/'.$coin->image)}}" />
                                         <h5 class="mb-0">{{$coin->name}}</h5>
                                     </div>
                                 </a>
