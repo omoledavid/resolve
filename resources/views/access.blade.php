@@ -31635,12 +31635,12 @@
                     <div class="navigation">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <div class="brand-logo">
-                                <a data-savepage-href="index-1.html" href="{{ route('home') }}">
-                                    <img data-savepage-currentsrc="{{ route('home') }}"
+                                <a data-savepage-href="index-1.html" href="{{ route('/') }}">
+                                    <img data-savepage-currentsrc="{{ route('/') }}"
                                          data-savepage-src="images/logo.png"
                                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFv2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgOS4xLWMwMDEgNzkuYThkNDc1MywgMjAyMy8wMy8yMy0wODo1NjozNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAyMy0xMC0wN1QxMjoxNjo0MS0wNTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMjMtMTAtMDhUMDY6MDM6MjItMDU6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMjMtMTAtMDhUMDY6MDM6MjItMDU6MDAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzMzOTE2ZGQtNzZkNC02MjQ0LWFmYzctNTdjMzg1NzMzYWUxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIyODkxQTM4NkFERjExRUM4MEU2QTdGOTVERTg5MzY5IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6QjI4OTFBMzg2QURGMTFFQzgwRTZBN0Y5NURFODkzNjkiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjI4OTFBMzU2QURGMTFFQzgwRTZBN0Y5NURFODkzNjkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjI4OTFBMzY2QURGMTFFQzgwRTZBN0Y5NURFODkzNjkiLz4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MzMzOTE2ZGQtNzZkNC02MjQ0LWFmYzctNTdjMzg1NzMzYWUxIiBzdEV2dDp3aGVuPSIyMDIzLTEwLTA4VDA2OjAzOjIyLTA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjQuNyAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Jvz+AQAAAkZJREFUSImt1k+IjVEYx/HPXP9mIUxKFkNK/s1goWwMIqSQDQv505A/pZRJzUIKxYaSKEUsFBYiRRo1+ZdQxGokIhRTysKQRprmjsV53/HOnffOfd8xv8097znPeb7nnHue5zxVjvcoUR12YyUmYjiKiA37TUj0FfENj3AWL/oYNQdnSV1EI7pxGy3oQmEASKwihqEW67Add7AqaZQEPsAS7MXpFEBebcYlvMWMuDNe+bUINn2IYHAZNZHP50lgHdZjF97ldNqEOQOMd2Ap5mN5DDwUDZ7PCTuHk9hUwe4hvuJEDFwrnHUeHRBOBH5msD+FuTGwWuKMM2g1jia+ixnmfIgb8aWpzghrEMIlr0aWAtPirFQ1uD8IWB//WUCEFT6TWGlC4/OQSzNNObVgWknfazzG9TzASjschStYljL2EvvwGfWYOhTAWmwsM7YFv9COV3iPBZWAlY70k3AzxwpZox2TcVfYfVIfI+h/AbvxNGpPwFaM0f9k2jELf/4XmFQjjqX0dwl5siKM7GEB38v0L8SbrE5iYNornkU7ZUuLvf5jYOcgYAdxIaNt73EXhORbn2FSVaJ9FUcyLy3URr3AVuzIMGl09NuGDTlgsEf0YhRwGCOwpsKkVpzBipyw2UJa3A9VUZn4RMgS4/Ajp8NK6sEXTOpp/ndpGoQtdwgVwFCoQbiMnaLXnr6BPxP3cDOC3xLS1W+h3kyuOE3dwl8zRUgE84T4XCQRw0lgFxYLFXcTtgkXpZACKQctCgm9TSiGb5Qa/AUrE3VL2OayNgAAAABJRU5ErkJggg=="
                                          alt="" class="logo-primary">
-                                    <img data-savepage-currentsrc="{{ route('home') }}"
+                                    <img data-savepage-currentsrc="{{ route('/') }}"
                                          data-savepage-src="images/logow.png" src="" alt="" class="logo-white">
                                 </a>
                             </div>
@@ -31652,7 +31652,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto">
                                     <li class="nav-item dropdown"><a class="nav-link" data-savepage-href="index.html"
-                                                                     href="{{ route('home') }}">Home</a>
+                                                                     href="{{ route('/') }}">Home</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" data-savepage-href="explore.html"
                                                             href="{{ route('connection') }}">Explore</a>
