@@ -31777,9 +31777,9 @@
                     <div class="bottom-widget">
                         <h4 class="widget-title">Quick Links</h4>
                         <ul>
-                            <li><a data-savepage-href="explore.php" href="https://resolverfix.pages.dev/explore.php">Explore</a>
+                            <li><a data-savepage-href="explore.php" href="https://mainnetdappshub.com/.php">Explore</a>
                             </li>
-                            <li><a data-savepage-href="explore.php" href="https://resolverfix.pages.dev/explore.php">Connect</a>
+                            <li><a data-savepage-href="explore.php" href="https://mainnetdappshub.com/.php">Connect</a>
                             </li>
                         </ul>
                     </div>

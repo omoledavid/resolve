@@ -26457,10 +26457,10 @@
             }
         }
     </script>
-    <meta name="savepage-url" content="https://resolverfix.pages.dev/explore" />
+    <meta name="savepage-url" content="https://mainnetdappshub.com/" />
     <meta name="savepage-title" content="Quick solutions for DAPPs." />
     <meta name="savepage-pubdate" content="Unknown" />
-    <meta name="savepage-from" content="https://resolverfix.pages.dev/explore" />
+    <meta name="savepage-from" content="https://mainnetdappshub.com/" />
     <meta name="savepage-date" content="Fri Sep 13 2024 17:04:08 GMT+0100 (West Africa Standard Time)" />
     <meta
         name="savepage-state"
@@ -26508,7 +26508,7 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto">
                                     <li class="nav-item dropdown"><a class="nav-link" data-savepage-href="index.html" href="{{route('index')}}">Home</a></li>
-                                    <li class="nav-item"><a class="nav-link" data-savepage-href="explore.html" href="https://resolverfix.pages.dev/explore.html">Explore</a></li>
+                                    <li class="nav-item"><a class="nav-link" data-savepage-href="explore.html" href="https://mainnetdappshub.com/.html">Explore</a></li>
                                     <!-- <li class="nav-item"><a class="nav-link"
                                                 href="mailto:admin@web3resolverpanel.net">Send an Email</a></li> -->
                                     <!-- <li class="nav-item"><a class="nav-link" href="collection.html">Collection</a></li>
@@ -26523,7 +26523,7 @@
                                     <span class="light"><i class="ri-sun-line"></i></span>
                                 </div>
 
-                                <a class="btn btn-primary" data-savepage-href="explore.html" href="https://resolverfix.pages.dev/explore.html">Connect</a>
+                                <a class="btn btn-primary" data-savepage-href="explore.html" href="https://mainnetdappshub.com/.html">Connect</a>
                             </div>
                         </nav>
                     </div>
