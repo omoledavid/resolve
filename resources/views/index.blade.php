@@ -57310,7 +57310,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <img style="width:400px;" src="hero.png"/>
+                            <img style="width:400px;" src="{{ asset('hero.png') }}"/>
                         </div>
                     </div>
                 </div>
