@@ -57300,7 +57300,7 @@
                                     using an integrated interface that is fully optimized for your device..
                                 </div>
                                 <div class="action mt-5">
-                                    <a href="{{route('connection')}}"
+                                    <a href="{{route('explore')}}"
                                        class="theme-btn btn-style-fifteen connectBtn connectButton">
                                         <span class="txt"> Connect Wallet <i
                                                 class="fa fa-chevron-circle-right"></i>
@@ -57330,7 +57330,7 @@
                                         <div class="inner-box wow fadeInLeft animated text-center" data-wow-delay="0ms"
                                              data-wow-duration="1500ms"
                                              style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                                            <a class="connectBtn connectButton" href="{{ route('connection') }}">
+                                            <a class="connectBtn connectButton" href="{{ route('explore') }}">
                                                 <h5>{{$option->title}}</h5>
                                                 <div class="text">{{$option->desc}}</div>
                                             </a>
@@ -57431,7 +57431,7 @@
                                 extension</h3>
                             <div class="-cbwsdk-try-extension-cta-wrapper">
                                 <button class="-cbwsdk-try-extension-cta light connectButton"
-                                        href="{{ route('connection') }}">
+                                        href="{{ route('explore') }}">
                                     Install
                                 </button>
                                 <div>
