@@ -17087,7 +17087,7 @@
             float: left;
             padding-right: 0.5rem;
             color: #6c757d;
-            content: var(--bs-breadcrumb-divider, "../index-2.html") /* rtl: var(--bs-breadcrumb-divider, "/") */;
+            content: var(--bs-breadcrumb-divider, {{'index'}}) /* rtl: var(--bs-breadcrumb-divider, "/") */;
         }
 
         .breadcrumb-item.active {
@@ -26469,3 +26469,46 @@
 <!-- <div id="preloader"><i>.</i><i>.</i><i>.</i></div> -->
 
 <div id="preloader" style="display: none"><i>.</i><i>.</i><i>.</i></div>
+<div id="main-wrapper" class="front show">
+
+    <div class="header landing">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="navigation">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="brand-logo">
+                                <a href="{{ route('index') }}">
+                                    <img src="{{ asset('storage/logo.png') }}" alt="logo" />
+                                </a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item dropdown"><a class="nav-link"
+                                            href="{{ route('index') }}">Home</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('explore') }}">Explore</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="signin-btn d-flex align-items-center">
+                                <div class="dark-light-toggle theme-switch" onclick="themeToggle()">
+                                    <span class="dark"><i class="ri-moon-line"></i></span>
+                                    <span class="light"><i class="ri-sun-line"></i></span>
+                                </div>
+
+                                <a class="btn btn-primary"
+                                    href="{{ route('explore') }}">Connect</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
