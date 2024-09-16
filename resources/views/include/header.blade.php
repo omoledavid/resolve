@@ -26463,6 +26463,8 @@
     />
     <meta name="savepage-version" content="33.9" />
     <meta name="savepage-comments" content="" />
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
 </head>
 
 <body class="@@dashboard">
